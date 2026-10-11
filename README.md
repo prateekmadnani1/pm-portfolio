@@ -18,7 +18,7 @@ Open `index.html` and find the block that starts with `EDIT ME` near the top of 
 - `LINES`: the five lines and the track each one follows, as grid points (x 0 to 11, y 0 to 7). Keep turns at 45° or 90°.
 - `ZONES`: the three dotted career phases along the top.
 - `LINKS`: pairs of stops joined by an interchange capsule (a role and its case study).
-- `STATIONS`: every stop. `at` is where it sits on its line, `lbl` is the map label (`\n` makes two lines), `label` is the side the label goes (n, s, e, w, ne, nw, se, sw), and `cta` adds buttons.
+- `STATIONS`: every stop. `at` is where it sits on its line, `lbl` is the map label (`\n` makes two lines), `label` is the side the label goes (n, s, e, w, ne, nw, se, sw), `cta` adds link buttons, and `video` (`src`, `poster`, `title`) adds a "Watch the video" button that opens the player.
 
 If a stop is more than a few pixels off its line the browser console says so.
 
@@ -35,6 +35,7 @@ Live at https://prateekmadnani1.github.io/pm-portfolio/
 - `index.html`: the whole site
 - `in-n-out-case-study.html`: the case study deck
 - `in-n-out-case-study-video.mp4`, `in-n-out-case-study-poster.jpg`: its video walkthrough
-- `images/portrait.jpg`: the cropped portrait on the "You are here" card
-- `images/user_profile.jpg`: the full portrait, used for link previews
-- `images/favicon.svg`: the tab icon
+- `uniqlo-case-study-video.mp4`, `uniqlo-case-study-poster.jpg`: the Uniqlo case study video walkthrough
+- `portrait.jpg`: the cropped portrait on the "You are here" card
+- `user_profile.jpg`: the full portrait, used for link previews
+- `favicon.svg`: the tab icon
