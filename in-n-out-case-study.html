@@ -1,0 +1,287 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>In-N-Out Burger: A Case Study · Prateek Madnani</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400..700&family=Public+Sans:wght@400..700&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;background:#14100E}
+body{font-family:'Public Sans',Arial,sans-serif}
+.bar{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:#14100E;border-bottom:1px solid #3A302A}
+.bar a{color:#F2C230;text-decoration:none;font-weight:600;font-size:15px}
+.bar a:hover{text-decoration:underline}
+.bar span{color:#A89B8C;font-size:14px}
+main{max-width:1280px;margin:0 auto;padding:24px 16px 48px;display:flex;flex-direction:column;gap:24px}
+.stage{width:100%;aspect-ratio:16/9;position:relative;overflow:hidden;border-radius:8px;box-shadow:0 2px 16px rgba(0,0,0,.5)}
+.scaler{width:1920px;height:1080px;transform-origin:0 0;position:absolute;left:0;top:0}
+.slide h1,.slide h2,.slide h3,.slide p,.slide ul{margin:0}
+.slide{font-synthesis:none}
+.slide a:focus-visible,.bar a:focus-visible{outline:2px solid #F2C230;outline-offset:3px}
+.walk{display:block;width:100%;aspect-ratio:16/9;background:#1F1A17;border-radius:8px;box-shadow:0 2px 16px rgba(0,0,0,.5)}
+.walk-label{color:#A89B8C;font-size:14px;margin:-8px 0 0}
+</style></head><body>
+<div class="bar"><a href="./">&larr; Back to portfolio</a><span>In-N-Out Burger: A Case Study</span></div>
+<main>
+<video class="walk" controls preload="metadata" playsinline poster="in-n-out-case-study-poster.jpg" aria-label="Video walkthrough of the case study"><source src="in-n-out-case-study-video.mp4" type="video/mp4"></video>
+<p class="walk-label">Video walkthrough · about 3 minutes. The slides follow below.</p>
+<div class="stage"><div class="scaler"><section id="cover" class="slide" style="position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;background:#1F1A17;color:#FBF7F0;font-family:'Public Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:32px">
+<div style="position:absolute;left:0;top:0;width:24px;height:1080px;background:#C8102E"></div>
+<p style="font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#F2C230;font-weight:600">Business Case Study</p>
+<h1 style="font-family:'Oswald', Arial, sans-serif;font-size:160px;font-weight:600;line-height:1;text-transform:uppercase">In-N-Out Burger</h1>
+<h2 style="font-family:'Public Sans', Arial, sans-serif;font-size:44px;font-weight:400;color:#D9CFC2;line-height:1.3">How a family burger chain wins by refusing to grow fast</h2>
+<p style="position:absolute;left:128px;bottom:64px;width:1200px;font-size:24px;color:#A89B8C">Prepared by Prateek Madnani · October 2026</p>
+
+</section></div></div>
+<div class="stage"><div class="scaler"><section id="puzzle" class="slide" style="position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;background:#FBF7F0;color:#2A211C;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#B5121B;font-weight:600">The puzzle</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">Small footprint, outsized results</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:96px;font-weight:600;color:#B5121B;line-height:1">~440</h3>
+<p style="font-size:28px;color:#5A4D44">stores in total</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:96px;font-weight:600;color:#B5121B;line-height:1">10</h3>
+<p style="font-size:28px;color:#5A4D44">US states, mostly in the West</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:96px;font-weight:600;color:#B5121B;line-height:1">$6M+</h3>
+<p style="font-size:28px;color:#5A4D44">average annual sales per store</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:40px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:96px;font-weight:600;color:#B5121B;line-height:1">$2.6B</h3>
+<p style="font-size:28px;color:#5A4D44">estimated annual revenue</p>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;background:#1F1A17;padding:40px 48px;border-radius:16px">
+<p style="font-size:32px;color:#FBF7F0;line-height:1.4"><b><span style="color:#F2C230">No franchises. No outside investors. No debt.</span></b> So how does a chain that deliberately stays small outsell rivals many times its size?</p>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between"><p style="font-size:24px;color:#8A7C70">In-N-Out Burger · Case Study</p><p style="font-size:24px;color:#8A7C70">2</p></div>
+
+</section></div></div>
+<div class="stage"><div class="scaler"><section id="origins" class="slide" style="position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;background:#F3ECE1;color:#2A211C;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#B5121B;font-weight:600">Origins</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">Four leaders, one unchanged playbook</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;gap:24px">
+<div style="display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:44px;font-weight:600;color:#B5121B">1948</h3>
+<p style="font-size:24px;line-height:1.4"><b>Founded</b> by Harry and Esther Snyder in Baldwin Park, CA, as a 100 sq ft stand.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:44px;font-weight:600;color:#B5121B">First</h3>
+<p style="font-size:24px;line-height:1.4"><b>Drive-thru innovation:</b> Harry's home-built two-way speaker box.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:44px;font-weight:600;color:#B5121B">1976</h3>
+<p style="font-size:24px;line-height:1.4"><b>Only 18 stores</b> after 28 years. Slow, debt-free growth by design.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:44px;font-weight:600;color:#B5121B">1976–99</h3>
+<p style="font-size:24px;line-height:1.4"><b>Rich, then Guy Snyder:</b> 18 → 93 stores, first move out of state (Nevada).</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:44px;font-weight:600;color:#B5121B">Today</h3>
+<p style="font-size:24px;line-height:1.4"><b>Lynsi Snyder,</b> the founders' granddaughter, owns and runs it.</p>
+</div>
+</div>
+<div style="display:flex;gap:32px;align-items:center;background:#FBF7F0;padding:40px 48px;border-radius:16px;border-left:8px solid #F2C230">
+<p style="font-size:32px;line-height:1.4">Through three sudden leadership changes, <b>no successor sold the company or reshaped it.</b> Each kept the founders' hands-on model, and that continuity is the root of everything that follows.</p>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between"><p style="font-size:24px;color:#8A7C70">In-N-Out Burger · Case Study</p><p style="font-size:24px;color:#8A7C70">3</p></div>
+
+</section></div></div>
+<div class="stage"><div class="scaler"><section id="values" class="slide" style="position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;background:#B5121B;color:#FBF7F0;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:space-between;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#F2C230;font-weight:600">The framework</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">Three simple values run the whole business</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:16px;border-top:4px solid #F2C230;padding:32px 0 0 0">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;text-transform:uppercase">Quality</h3>
+<p style="font-size:32px;line-height:1.4;color:#FCE3DF">Shapes the supply chain and limits where stores can open.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;border-top:4px solid #F2C230;padding:32px 0 0 0">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;text-transform:uppercase">Service</h3>
+<p style="font-size:32px;line-height:1.4;color:#FCE3DF">Shapes pay, training and promotion, and limits how fast it can hire.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;border-top:4px solid #F2C230;padding:32px 0 0 0">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;text-transform:uppercase">Cleanliness</h3>
+<p style="font-size:32px;line-height:1.4;color:#FCE3DF">Shapes store design and standards that build customer trust.</p>
+</div>
+</div>
+<p style="font-size:32px;line-height:1.4">They sound obvious. What's unusual is that each one is a <b>hard operating rule</b>, applied even when it costs growth.</p>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between"><p style="font-size:24px;color:#F4B9B2">In-N-Out Burger · Case Study</p><p style="font-size:24px;color:#F4B9B2">4</p></div>
+
+</section></div></div>
+<div class="stage"><div class="scaler"><section id="quality" class="slide" style="position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;background:#FBF7F0;color:#2A211C;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#B5121B;font-weight:600">Value 1 · Quality</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">"Never frozen" decides where it can grow</h2>
+</div>
+<div style="display:flex;gap:48px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px">
+<div style="background:#FFFFFF;padding:24px 32px;border-radius:12px;border-left:8px solid #C8102E"><p style="font-size:28px"><b>No freezers,</b> heat lamps or microwaves in kitchens</p></div>
+<div style="background:#FFFFFF;padding:24px 32px;border-radius:12px;border-left:8px solid #C8102E"><p style="font-size:28px">So every store must sit <b>≤ ~300 miles</b> from a plant</p></div>
+<div style="background:#FFFFFF;padding:24px 32px;border-radius:12px;border-left:8px solid #C8102E"><p style="font-size:28px">So the company <b>owns its own plants</b> to control quality</p></div>
+<div style="background:#FFFFFF;padding:24px 32px;border-radius:12px;border-left:8px solid #C8102E"><p style="font-size:28px">So a new region needs a <b>$30M+ plant first</b></p></div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;flex-direction:column;gap:12px;background:#F3ECE1;padding:32px;border-radius:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;text-transform:uppercase;color:#5A4D44">Typical chain</h3>
+<p style="font-size:28px;line-height:1.4">Expansion is a <b>real-estate</b> decision: find a site, sign a franchisee.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#1F1A17;color:#FBF7F0;padding:32px;border-radius:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;text-transform:uppercase;color:#F2C230">In-N-Out</h3>
+<p style="font-size:28px;line-height:1.4">Expansion is a <b>manufacturing</b> decision: build the plant, then the stores.</p>
+</div>
+</div>
+</div>
+<p style="font-size:28px;color:#5A4D44;line-height:1.4">Also: fries cut fresh in store, hand-leafed lettuce, preservative-free buns, real ice cream shakes.</p>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between"><p style="font-size:24px;color:#8A7C70">In-N-Out Burger · Case Study</p><p style="font-size:24px;color:#8A7C70">5</p></div>
+
+</section></div></div>
+<div class="stage"><div class="scaler"><section id="people" class="slide" style="position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;background:#F3ECE1;color:#2A211C;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#B5121B;font-weight:600">Value 2 · Service</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">Friendly service is engineered, not hoped for</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#B5121B;line-height:1">$160K</h3>
+<p style="font-size:24px;line-height:1.4;color:#5A4D44">average store manager pay (2018)</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#B5121B;line-height:1">17 yrs</h3>
+<p style="font-size:24px;line-height:1.4;color:#5A4D44">average manager tenure in a high-turnover industry</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#B5121B;line-height:1">100%</h3>
+<p style="font-size:24px;line-height:1.4;color:#5A4D44">of store managers promoted from within</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#B5121B;line-height:1">91%</h3>
+<p style="font-size:24px;line-height:1.4;color:#5A4D44">employee satisfaction, #1 chain for 10 years</p>
+</div>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px;border-left:8px solid #2F6B4F">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;text-transform:uppercase;color:#2F6B4F">Payoff</h3>
+<p style="font-size:28px;line-height:1.4">Low turnover cuts retraining costs; managers know the culture; service stays consistent.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FBF7F0;padding:32px;border-radius:16px;border-left:8px solid #B5121B">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;text-transform:uppercase;color:#B5121B">Trade-off</h3>
+<p style="font-size:28px;line-height:1.4">Can't open 100 stores at once. Growth moves only as fast as people can be trained and promoted.</p>
+</div>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between"><p style="font-size:24px;color:#8A7C70">In-N-Out Burger · Case Study</p><p style="font-size:24px;color:#8A7C70">6</p></div>
+
+</section></div></div>
+<div class="stage"><div class="scaler"><section id="control" class="slide" style="position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;background:#FBF7F0;color:#2A211C;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#B5121B;font-weight:600">Value 3 · Cleanliness, plus family control</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">No board means it can say no</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:32px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;text-transform:uppercase">Four-item menu</h3>
+<p style="font-size:26px;line-height:1.4;color:#5A4D44">Unchanged since 1963. Faster training, no choice overload; a "secret menu" adds variety for regulars.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:32px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;text-transform:uppercase">No mobile ordering</h3>
+<p style="font-size:26px;line-height:1.4;color:#5A4D44">Gives up revenue to protect freshness and the in-person welcome.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:32px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;text-transform:uppercase">Prices held low</h3>
+<p style="font-size:26px;line-height:1.4;color:#5A4D44">Kept affordable even after California's $20 minimum wage in 2024. No franchise fees or debt help.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:32px;border-radius:16px;border-top:8px solid #C8102E">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;text-transform:uppercase">"Fishbowl" kitchens</h3>
+<p style="font-size:26px;line-height:1.4;color:#5A4D44">Big windows show the kitchen at work: nothing hidden, more trust.</p>
+</div>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between"><p style="font-size:24px;color:#8A7C70">In-N-Out Burger · Case Study</p><p style="font-size:24px;color:#8A7C70">7</p></div>
+
+</section></div></div>
+<div class="stage"><div class="scaler"><section id="economics" class="slide" style="position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;background:#F3ECE1;color:#2A211C;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#B5121B;font-weight:600">The results</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">Fewer stores, far more per store</h2>
+</div>
+<div style="display:flex;gap:64px">
+<div style="flex:2;display:flex;flex-direction:column;gap:28px">
+<p style="font-size:24px;color:#5A4D44;font-weight:600;text-transform:uppercase;letter-spacing:2px">Average annual sales per store (relative)</p>
+<div style="display:flex;flex-direction:column;gap:8px"><p style="font-size:28px"><b>In-N-Out</b> · $6M+</p><div style="width:100%;height:40px;background:#B5121B;border-radius:6px"></div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><p style="font-size:28px"><b>McDonald's</b> · ~1.5× lower</p><div style="width:67%;height:40px;background:#8A7C70;border-radius:6px"></div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><p style="font-size:28px"><b>Shake Shack</b> · ~1.5× lower</p><div style="width:67%;height:40px;background:#8A7C70;border-radius:6px"></div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><p style="font-size:28px"><b>Five Guys</b> · ~4× lower</p><div style="width:25%;height:40px;background:#8A7C70;border-radius:6px"></div></div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;flex-direction:column;gap:8px;background:#1F1A17;color:#FBF7F0;padding:32px;border-radius:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#F2C230;line-height:1">$2.6B</h3>
+<p style="font-size:24px;line-height:1.4">estimated annual revenue from a four-item menu</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#1F1A17;color:#FBF7F0;padding:32px;border-radius:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#F2C230;line-height:1">63%</h3>
+<p style="font-size:24px;line-height:1.4">of visits driven by the brand, not convenience</p>
+</div>
+</div>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between"><p style="font-size:24px;color:#8A7C70">In-N-Out Burger · Case Study · Figures are public estimates</p><p style="font-size:24px;color:#8A7C70">8</p></div>
+
+</section></div></div>
+<div class="stage"><div class="scaler"><section id="risks" class="slide" style="position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;background:#FBF7F0;color:#2A211C;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#B5121B;font-weight:600">Challenges</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">Where the model is exposed</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:16px;background:#FFFFFF;padding:40px;border-radius:16px;border-top:8px solid #C8102E">
+<svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="#B5121B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c3 3 3 16 0 19M12 2.5c-3 3-3 16 0 19"/></svg>
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:44px;font-weight:600;text-transform:uppercase;line-height:1.1">Scarcity is fading</h3>
+<p style="font-size:26px;line-height:1.4;color:#5A4D44">Being hard to find made customers its free marketing team. Expansion into Texas, Tennessee and soon New Mexico dilutes that "must-try" status.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;background:#FFFFFF;padding:40px;border-radius:16px;border-top:8px solid #C8102E">
+<svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="#B5121B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/><circle cx="17" cy="9" r="2.8"/><path d="M17 14.2c2.6.2 4.5 2.1 4.5 5"/></svg>
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:44px;font-weight:600;text-transform:uppercase;line-height:1.1">Values that divide</h3>
+<p style="font-size:26px;line-height:1.4;color:#5A4D44">A 2023 employee mask ban, a lawsuit over grooming rules, and openly expressed owner values don't sit well with every customer.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;background:#FFFFFF;padding:40px;border-radius:16px;border-top:8px solid #C8102E">
+<svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="#B5121B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 018 0v3"/></svg>
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:44px;font-weight:600;text-transform:uppercase;line-height:1.1">A built-in ceiling</h3>
+<p style="font-size:26px;line-height:1.4;color:#5A4D44">Plants and promote-from-within limit speed. Rivals with franchises can claim new markets first.</p>
+</div>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between"><p style="font-size:24px;color:#8A7C70">In-N-Out Burger · Case Study</p><p style="font-size:24px;color:#8A7C70">9</p></div>
+
+</section></div></div>
+<div class="stage"><div class="scaler"><section id="takeaways" class="slide" style="position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;background:#1F1A17;color:#FBF7F0;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="position:absolute;left:0;top:0;width:24px;height:1080px;background:#C8102E"></div>
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#F2C230;font-weight:600">Key takeaways</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase">Every constraint is a choice</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:32px 64px">
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #4A3F38;padding:24px 0 0 0"><h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;color:#F2C230">01 · Turn values into rules</h3><p style="font-size:28px;line-height:1.4;color:#D9CFC2">A value only matters if it's built into operations.</p></div>
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #4A3F38;padding:24px 0 0 0"><h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;color:#F2C230">02 · Own what defines you</h3><p style="font-size:28px;line-height:1.4;color:#D9CFC2">Control the parts of the chain that make the product.</p></div>
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #4A3F38;padding:24px 0 0 0"><h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;color:#F2C230">03 · Invest in people</h3><p style="font-size:28px;line-height:1.4;color:#D9CFC2">Pay and promotion paths buy loyalty and consistency.</p></div>
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #4A3F38;padding:24px 0 0 0"><h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;color:#F2C230">04 · Depth over breadth</h3><p style="font-size:28px;line-height:1.4;color:#D9CFC2">Fewer, stronger stores can beat a bigger footprint.</p></div>
+</div>
+<p style="font-size:32px;line-height:1.4;color:#FBF7F0"><b>For discussion:</b> can In-N-Out keep its magic as it moves east, or does growth erode what made it special?</p>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between"><p style="font-size:24px;color:#A89B8C">In-N-Out Burger · Case Study</p><p style="font-size:24px;color:#A89B8C">10</p></div>
+
+</section></div></div>
+</main>
+<script>
+(function(){
+  function fit(){
+    document.querySelectorAll('.stage').forEach(function(st){
+      var sc=st.querySelector('.scaler');
+      sc.style.transform='scale('+(st.clientWidth/1920)+')';
+    });
+  }
+  fit(); window.addEventListener('resize',fit);
+  if(window.ResizeObserver){var ro=new ResizeObserver(fit);document.querySelectorAll('.stage').forEach(function(s){ro.observe(s)});}
+})();
+</script></body></html>
